@@ -1,6 +1,7 @@
 const {readFile} = require('fs') //aysnc requires a callback 
 const util= require('util')// we can use it to promisify
 
+
 const promiseit=util.promisify(readFile)//usinh this skips the promise function
 
 
